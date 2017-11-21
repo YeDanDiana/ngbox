@@ -299,7 +299,7 @@ export class NgBoxComponent implements DoCheck {
     }
 
     nextNgBox() {
-        if ( this.ngBox.current !== undefined && this.ngBox.current.group === undefined ) {
+        if ( this.ngBox.current === undefined || this.ngBox.current.group === undefined ) {
             return false;
         }
         this.ngBox.loading = true;
@@ -316,7 +316,7 @@ export class NgBoxComponent implements DoCheck {
     }
 
     previousNgBox() {
-        if ( this.ngBox.current !== undefined && this.ngBox.current.group === undefined ) {
+        if ( this.ngBox.current === undefined || this.ngBox.current.group === undefined ) {
             return false;
         }
         this.ngBox.loading = true;
