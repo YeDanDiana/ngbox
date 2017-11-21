@@ -1,9 +1,9 @@
 ## install npm package
-`npm install ngbox@latest -i`
+`npm install ng-box@latest -i`
 
 
 ##github
-[Source Code](https://github.com/mixalistzikas/ngbox)
+[Source Code](https://github.com/YeDanDiana/ngbox)
 
 ## app.module.ts
 
